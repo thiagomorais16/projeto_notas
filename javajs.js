@@ -1,8 +1,4 @@
-const addCard = (event) =>{
-    event.preventeDefault();
-    console.log ("ahhh", event)
-}
-
-const moveForm = () => {
- 
-}
+const addCard = (event) => {
+    event.preventDefault();
+    console.log("AHHHHH", event);
+};

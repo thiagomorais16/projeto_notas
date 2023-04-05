@@ -88,3 +88,10 @@ nav {
     background-color: #f17462;
     color: #fff !important;
 }
+.hidden{
+    display: none;
+}
+.date_holder{
+    display: flex;
+    justify-content: space-between;
+}

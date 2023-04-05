@@ -30,7 +30,18 @@
             </div>
         </section>
     </main>
-    
+    <form class="card hidden" onsubmit="addCard(event)">
+        <input type="text" id=" titulo" placeholder="Título" />
+        <textarea name="description" 
+        id="description" 
+        cols="5" 
+        rows="5"></textarea>
+        <div class="date_holder">
+            <input type="date" />
+            <button type="submit"><img src="./images/plus-solid.svg" alt="adicionar" /></button>
+        </div>
+
+    </form>
     <script src="javajs.js"></script>
 </body>
 </html>
